@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "git": "^0.1.5",
+    "github": "^14.0.0",
+    "nodejs": "^0.0.0",
+    "pm2": "^5.3.1",
+    "venom-bot": "^5.0.21"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon Triunfo.js"
+  }
+}
