@@ -5,7 +5,7 @@ const venom = require('venom-bot');
 venom
   .create({
     session: 'session-name', //name of session
-    headless: false
+    headless: 'new'
   } )
   .then((client) => start(client))
   .catch((erro) => {
